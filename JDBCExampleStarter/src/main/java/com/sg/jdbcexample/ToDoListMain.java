@@ -169,7 +169,7 @@ public class ToDoListMain {
         }
     }
 
-    //Instantiate our DataSource
+    //Instantiate our DataSource - With JDBC we have to define our connection in code.
     private static DataSource getDataSource() throws SQLException {
         MysqlDataSource ds = new MysqlDataSource();
         ds.setServerName("localhost");
