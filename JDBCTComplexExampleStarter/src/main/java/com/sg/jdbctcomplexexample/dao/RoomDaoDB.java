@@ -13,7 +13,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 @Repository
-public class RoomDAODB implements RoomDao{
+public class RoomDaoDB implements RoomDao{
     @Autowired
     JdbcTemplate jdbc;
 
