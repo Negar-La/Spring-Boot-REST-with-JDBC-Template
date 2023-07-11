@@ -1,10 +1,10 @@
-package Spring.Boot.Application.Spring.Boot.Application.Simple.Example;
+package ToDo.API;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootApplicationSimpleExampleApplicationTests {
+class AppTests {
 
 	@Test
 	void contextLoads() {
