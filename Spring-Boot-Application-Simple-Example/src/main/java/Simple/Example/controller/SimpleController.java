@@ -1,4 +1,4 @@
-package Spring.Boot.Application.Spring.Boot.Application.Simple.Example.controller;
+package Simple.Example.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -11,6 +11,11 @@ public class SimpleController {
     public String[] helloWorld() {
         String[] result = {"Hello", "World", "!"};
         return result;
+    }
+
+    @GetMapping("/negar")
+    public String helloNegar() {
+        return "My name is Negar";
     }
 
     @PostMapping("/calculate")
